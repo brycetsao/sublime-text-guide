@@ -14,7 +14,7 @@ $ sudo apt-get install sublime-text
 ## 安裝套件
 
 ### 安裝套件管理
-https://packagecontrol.io/
+https://packagecontrol.io/installation
 
 ### 套件推介
 
