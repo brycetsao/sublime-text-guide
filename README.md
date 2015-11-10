@@ -48,7 +48,6 @@ $ sudo apt-get install gcc
                "cmd": 
                [
                     "g++", "-Wall", "-lm", "-O2", "-std=c++11", "-pipe", "$file",
-                    "&&", "echo", "Compilation", "completed.",
                     "&&", "start", "cmd", "/k", "a"
                ]
           }
