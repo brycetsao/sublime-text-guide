@@ -20,6 +20,18 @@ https://packagecontrol.io/
 
 ## 將 Sublime Text 打造成爲 IDE
 
+### 安裝 GCC
+
+#### Windows
+http://tdm-gcc.tdragon.net/download
+
+#### Linux
+```shell
+$ sudo apt-get install gcc
+```
+
+### 使用 Build System 建立編譯腳本
+
 #### Windows
 ```json
 {
@@ -58,8 +70,3 @@ https://packagecontrol.io/
 }
 ```
 
-####
-
-### 安裝 GCC
-
-### 使用 Build System 建立編譯腳本
