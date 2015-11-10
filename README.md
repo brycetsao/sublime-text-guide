@@ -18,6 +18,11 @@ https://packagecontrol.io/
 
 ### 套件推介
 
+#### Alternate VIM Navigation
+#### AceJump
+#### All Autocomplete
+#### AdvancedNewFile
+
 ## 將 Sublime Text 打造成爲 IDE
 
 ### 安裝 GCC
