@@ -19,9 +19,13 @@ https://packagecontrol.io/installation
 ### 套件推介
 
 #### Alternate VIM Navigation
+https://packagecontrol.io/packages/Alternate%20VIM%20Navigation
 #### AceJump
+https://packagecontrol.io/packages/AceJump
 #### All Autocomplete
+https://packagecontrol.io/packages/All%20Autocomplete
 #### AdvancedNewFile
+https://packagecontrol.io/packages/AdvancedNewFile
 
 ## 將 Sublime Text 打造成爲 IDE
 
