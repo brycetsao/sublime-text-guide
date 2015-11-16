@@ -20,10 +20,18 @@ https://packagecontrol.io/installation
 
 #### Alternate VIM Navigation
 https://packagecontrol.io/packages/Alternate%20VIM%20Navigation
+
+可以用 <kbd>Alt</kbd> + <kbd>I</kbd><kbd>J</kbd><kbd>K</kbd><kbd>L</kbd> 來上下左右移動游標，
+<kbd>Alt</kbd> + <kbd>H</kbd> / <kbd>;</kbd> 以將游標移動至行首 / 行尾。
+
 #### AceJump
 https://packagecontrol.io/packages/AceJump
+
+![AceJump](https://cloud.githubusercontent.com/assets/8056203/10858871/92069504-7f58-11e5-8593-e373121fd917.gif)
+
 #### All Autocomplete
 https://packagecontrol.io/packages/All%20Autocomplete
+
 #### AdvancedNewFile
 https://packagecontrol.io/packages/AdvancedNewFile
 
