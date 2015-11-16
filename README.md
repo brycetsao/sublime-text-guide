@@ -2,7 +2,7 @@
 
 ## 安裝主程式
 
-#### Windows
+#### Windows / Mac OS X
 http://www.sublimetext.com/3
 
 
