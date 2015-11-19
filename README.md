@@ -46,7 +46,7 @@ Mac OS X 則已經內建了 GCC，所以不需再安裝。
 
 #### Windows
 
-這裏推薦 Windows users 使用 TDM-GCC 而非 MinGW，因爲前者的安裝較爲簡單，不需經過繁複的設定。 
+這裏推薦 Windows users 使用 TDM-GCC 而非 MinGW，因爲前者的安裝較爲簡單，不需經過繁複的設定。
 下載：http://tdm-gcc.tdragon.net/download
 
 #### Linux
@@ -70,10 +70,10 @@ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
 {
      "variants":
      [
-          {   
+          {
                "name": "Run",
                "shell": true,
-               "cmd": 
+               "cmd":
                [
                     "g++", "-Wall", "-lm", "-O2", "-std=c++11", "-pipe", "$file",
                     "&&", "start", "cmd", "/k", "a"
@@ -94,5 +94,18 @@ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
             gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press anykey]\\\"\""
         }
     ]
+}
+```
+
+#### Mac OS X
+```json
+{
+  "cmd": ["g++", "-std=c++11", "$file", "-I/usr/local/include"],
+  "selector": "source.c++",
+
+  "osx":
+  {
+    "cmd": ["open", "-a", "Terminal", "a.out"]
+  }
 }
 ```
