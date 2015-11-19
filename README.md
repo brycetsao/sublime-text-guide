@@ -100,12 +100,13 @@ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
 #### Mac OS X
 ```json
 {
-  "cmd": ["g++", "-std=c++11", "$file", "-I/usr/local/include"],
-  "selector": "source.c++",
-
-  "osx":
-  {
-    "cmd": ["open", "-a", "Terminal", "a.out"]
-  }
+  "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["bash", "-c", "g++ ${file} && open -a Terminal ./a.out"]
+        }
+    ]
 }
+
 ```
