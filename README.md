@@ -90,8 +90,8 @@ $ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
     [
         {
             "name": "Run",
-            "shell_cmd": "g++ \"${file}\" -lm -lcrypt -O2 -std=c++11 -pipe;
-            gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press anykey]\\\"\""
+            "shell_cmd": "g++ ${file} -lm -lcrypt -O2 -std=c++11 -pipe
+            && gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press Anykey]\\\"\""
         }
     ]
 }
@@ -100,12 +100,10 @@ $ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
 #### Mac OS X
 ``` json
 {
-  "cmd": ["g++", "-std=c++11", "$file", "-I/usr/local/include"],
-  "selector": "source.c++",
-
-  "osx":
+  "variants":
   {
-    "cmd": ["open", "-a", "Terminal", "a.out"]
+    "cmd": ["g++", "${file}", "-Wall", "-lm", "-O2", "-std=c++11", "-pipe",
+    "&&", "open", "-a", "Terminal", "a.out"]
   }
 }
 ```
