@@ -98,10 +98,7 @@ $ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
     [
         {
             "name": "Run",
-            "shell_cmd":
-            [
-                "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe && open -a Terminal ./a.out"
-            ]
+            "shell_cmd": "g++ $file -Wall -lm -O2 -std=c++11 -pipe && open -a Terminal ./a.out"
         }
     ]
 }
