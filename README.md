@@ -50,7 +50,7 @@ Mac OS X 則已經內建了 GCC，所以不需再安裝。
 下載：http://tdm-gcc.tdragon.net/download
 
 #### Linux
-```shell
+``` shell
 $ sudo apt-get install gcc
 ```
 
@@ -61,12 +61,12 @@ Build System 是編譯指令的腳本。
 但內建的 Build System 不是很好用，如果想要加入自己的編譯參數，我們可以選擇 Tools > Build System > New Build System 來建立自訂的 Build System。
 
 以下是筆者所使用的 Build System，其效果相當於在 shell 以下編譯指令，並執行編譯完成的執行檔，亦即「Compile & Run」：
-```shell
-g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
+``` shell
+$ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
 ```
 
 #### Windows
-```json
+``` json
 {
      "variants":
      [
@@ -90,22 +90,20 @@ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
     [
         {
             "name": "Run",
-            "shell_cmd": "g++ \"${file}\" -lm -lcrypt -O2 -std=c++11 -pipe;
-            gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press anykey]\\\"\""
+            "shell_cmd": "g++ ${file} -lm -lcrypt -O2 -std=c++11 -pipe
+            && gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press Anykey]\\\"\""
         }
     ]
 }
 ```
 
 #### Mac OS X
-```json
+``` json
 {
-  "cmd": ["g++", "-std=c++11", "$file", "-I/usr/local/include"],
-  "selector": "source.c++",
-
-  "osx":
+  "variants":
   {
-    "cmd": ["open", "-a", "Terminal", "a.out"]
+    "cmd": ["g++", "${file}", "-Wall", "-lm", "-O2", "-std=c++11", "-pipe",
+    "&&", "open", "-a", "Terminal", "a.out"]
   }
 }
 ```
