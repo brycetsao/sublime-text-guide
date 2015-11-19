@@ -68,13 +68,13 @@ $ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
 #### Windows
 ``` json
 {
-     "variants":
-     [
-          {
-               "name": "Run",
-               "shell_cmd": "g++ $file -Wall -lm -O2 -std=c++11 -pipe && start cmd /k a"
-          }
-     ]
+    "variants":
+    [
+        {
+            "name": "Run",
+            "shell_cmd": "g++ $file -Wall -lm -O2 -std=c++11 -pipe && start cmd /k a"
+        }
+    ]
 }
 ```
 
@@ -85,8 +85,7 @@ $ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
     [
         {
             "name": "Run",
-            "shell_cmd": "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe &&
-            gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press anykey]\\\"\""
+            "shell_cmd": "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe && gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press anykey]\\\"\""
         }
     ]
 }
@@ -95,12 +94,14 @@ $ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
 #### Mac OS X
 ``` json
 {
-  "variants":
+    "variants":
     [
         {
             "name": "Run",
-            "shell_cmd": "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe &&
-            open -a Terminal ./a.out"
+            "shell_cmd":
+            [
+                "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe && open -a Terminal ./a.out"
+            ]
         }
     ]
 }
