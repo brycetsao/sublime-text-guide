@@ -49,7 +49,8 @@ Mac OS X 則已經內建了 GCC，所以不需再安裝。
 #### Windows
 
 這裏推薦 Windows users 使用 TDM-GCC 而非 MinGW，因爲前者的安裝較爲簡單，不需經過繁複的設定。
-下載：http://tdm-gcc.tdragon.net/download
+到這裏下載：
+http://tdm-gcc.tdragon.net/download
 
 #### Linux
 ``` shell
