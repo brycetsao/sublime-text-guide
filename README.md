@@ -85,7 +85,7 @@ $ g++ -Wall -lm -O2 -std=c++ -pipe -[file_name]
     [
         {
             "name": "Run",
-            "shell_cmd": "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe && gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press anykey]\\\"\""
+            "shell_cmd": "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe && gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press any key]\\\"\""
         }
     ]
 }
