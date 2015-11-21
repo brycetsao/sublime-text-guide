@@ -1,12 +1,14 @@
 # Sublime Text 入坑指南
-本篇文除了介紹 Sublime Text 這個優秀的編輯器，也能幫助讀者在數分鐘之內將 Sublime Text 配置成個人化的 IDE。
+本篇文向大家介紹 Sublime Text 這個優秀的編輯器，並引導讀者在數分鐘之內將 Sublime Text 配置成爲個人化的 IDE。
 
 ## 安裝主程式
 
 #### Windows/Mac OS X
+到這裏下載：
 http://www.sublimetext.com/3
 
 #### Linux (Ubuntu/Mint)
+建議用系統的套件管理來安裝，在 terminal 輸入：
 ``` shell
 $ sudo apt-get install sublime-text
 ```
