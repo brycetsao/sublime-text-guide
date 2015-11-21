@@ -53,8 +53,9 @@ Mac OS X 則已經內建了 GCC，所以不需再安裝。
 http://tdm-gcc.tdragon.net/download
 
 #### Linux
+一樣用系統的套件管理安裝，建議將 g++ 也裝起來。
 ``` shell
-$ sudo apt-get install gcc
+$ sudo apt-get install g++
 ```
 
 ### 使用 Build System 建立編譯腳本
