@@ -31,6 +31,7 @@ https://packagecontrol.io/packages/AceJump
 ![AceJump](https://cloud.githubusercontent.com/assets/8056203/10858871/92069504-7f58-11e5-8593-e373121fd917.gif)
 
 #### All Autocomplete
+原本內建的補完功能
 
 #### AdvancedNewFile
 https://packagecontrol.io/packages/AdvancedNewFile
@@ -51,7 +52,7 @@ Mac OS X 則已經內建了 GCC，所以不需再安裝。
 http://tdm-gcc.tdragon.net/download
 
 #### Linux
-一樣用系統的套件管理安裝，建議將 g++ 也裝起來。
+一樣用系統的套件管理安裝，建議將 g++ 一併裝起來。
 ``` shell
 $ sudo apt-get install g++
 ```
