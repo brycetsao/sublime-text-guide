@@ -29,7 +29,7 @@ $ sudo apt-get install sublime-text
 
 安裝完成之後，請先重啓 Sublime Text。
 用 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> 叫出指令面板（或者 `Preference > Package Control`），
-輸入「install package」,即可瀏覽可用的套件，輸入欲安裝的套件名稱即可安裝。
+輸入「install package」即可瀏覽可用的套件，輸入欲安裝的套件名稱即可安裝。
 
 ### 套件推介
 
