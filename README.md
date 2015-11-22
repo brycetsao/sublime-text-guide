@@ -16,14 +16,24 @@ $ sudo apt-get install sublime-text
 ## 安裝套件
 
 ### 安裝套件管理
-https://packagecontrol.io/installation
+依照官網的指示：https://packagecontrol.io/installation
+
+翻譯如下：
+> 複製下面的 Python code，然後在 Sublime Text 中按下 <kbd>Ctrl</kbd> + <kbd>\`</kbd> 打開 console（或者 `View > Show Console`）,貼上剛剛複製的 code，再按 <kbd>Enter</kbd>，就會執行安裝了。
+
+安裝完成之後，請先重啓 Sublime Text。
+用 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> 叫出指令面板（或者 `Preference > Package Control`），
+輸入「install package」,即可瀏覽可用的套件，輸入欲安裝的套件名稱即可安裝。
 
 ### 套件推介
 
 #### Alternate VIM Navigation
 
-使用 <kbd>Alt</kbd> + <kbd>I</kbd>/<kbd>J</kbd>/<kbd>K</kbd>/<kbd>L</kbd> 來上下左右移動游標，
-<kbd>Alt</kbd> + <kbd>H</kbd> / <kbd>;</kbd> 以將游標移動至行首 / 行尾，在自動完成選單中也可以用這個方式在候選詞中上下移動，令右手不必再離開打字區。亦可以搭配 <kbd>Shift</kbd> 選取文字、<kbd>Ctrl</kbd> 逐字移動等等。筆者對這個套件的依賴已經到了沒裝它就不知如何移動游標的程度了。
+使用 <kbd>Alt</kbd> + <kbd>I</kbd> / <kbd>J</kbd> / <kbd>K</kbd> / <kbd>L</kbd> 來上下左右移動游標，
+<kbd>Alt</kbd> + <kbd>H</kbd> / <kbd>;</kbd> 以將游標移動至行首 / 行尾，
+在自動完成選單中也可以用這個方式在候選詞中上下移動，令右手不必再離開打字區。
+亦可以搭配 <kbd>Shift</kbd> 選取文字、<kbd>Ctrl</kbd> 逐字移動等等。
+筆者對這個套件的依賴已經到了沒裝它就不知如何移動游標的程度了。
 
 #### AceJump
 https://packagecontrol.io/packages/AceJump
