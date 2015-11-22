@@ -75,7 +75,7 @@ Build System 是編譯指令的腳本。
 工具列中的 `Tools > Build System` 裏面已經內建了一些常用語言的 Build System。
 但內建的 Build System 不是很好用，如果想要「編譯並執行」的功能，或加入自己想要的編譯參數，我們可以選擇 `Tools > Build System > New Build System` 來建立自訂的 Build System。
 
-以下是筆者使用的 Build System，其效果相當於執行以下的編譯指令，接着執行編譯完成的程式：
+最後給出的是筆者使用的 Build System，其效果相當於執行以下的編譯指令，接着執行編譯完成的程式：
 ``` shell
 $ g++ -Wall -lm -lcrypt -O2 -std=c++11 -pipe -[檔案名稱]
 ```
