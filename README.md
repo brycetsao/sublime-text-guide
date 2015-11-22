@@ -48,12 +48,13 @@ https://packagecontrol.io/packages/AdvancedNewFile
 
 ## 將 Sublime Text 打造成爲 IDE
 
-這個部分將說明如何安裝 TDM-GCC 作爲 C++ 的編譯器，並設定一鍵編譯。
+Sublime Text 本身只有文字編輯器，若要編譯程式碼，我們需要另行安裝編譯器。
+Sublime Text 中提供了 Build System 這個功能，方便使用者自行整合想用的編譯器。
+這部分將說明如何安裝 TDM-GCC 作爲 C++ 的編譯器，並示範用 Build System 來設定「編譯並執行」的功能。
 
 ### 安裝 GCC
 
-GCC 是目前 C++ 最廣泛被使用的編譯器，因爲 Sublime Text 本身只是文字編輯器，我們需要另行安裝編譯器。
-Mac OS X 則已經內建了 GCC，所以不需再安裝。
+GCC 是目前 C++ 最廣泛被使用的編譯器。Mac OS X 則已經內建了 GCC，所以不需再安裝。
 
 #### Windows
 
@@ -72,9 +73,9 @@ $ sudo apt-get install g++
 
 Build System 是編譯指令的腳本。
 工具列中的 `Tools > Build System` 裏面已經內建了一些常用語言的 Build System。
-但內建的 Build System 不是很好用，如果想要加入自己的編譯參數，我們可以選擇 `Tools > Build System > New Build System` 來建立自訂的 Build System。
+但內建的 Build System 不是很好用，如果想要「編譯並執行」的功能，或加入自己想要的編譯參數，我們可以選擇 `Tools > Build System > New Build System` 來建立自訂的 Build System。
 
-以下是筆者所使用的 Build System，其效果相當於在 shell 執行以下的編譯指令，並執行編譯完成的程式，亦即「Compile & Run」：
+以下是筆者使用的 Build System，其效果相當於執行以下的編譯指令，接着執行編譯完成的程式：
 ``` shell
 $ g++ -Wall -lm -lcrypt -O2 -std=c++11 -pipe -[檔案名稱]
 ```
