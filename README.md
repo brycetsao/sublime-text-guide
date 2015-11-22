@@ -70,8 +70,8 @@ $ sudo apt-get install g++
 ### 使用 Build System 建立編譯腳本
 
 Build System 是編譯指令的腳本。
-工具列中的 Tools > Build System 裏面已經內建了一些常用語言的 Build System。
-但內建的 Build System 不是很好用，如果想要加入自己的編譯參數，我們可以選擇 Tools > Build System > New Build System 來建立自訂的 Build System。
+工具列中的 `Tools > Build System` 裏面已經內建了一些常用語言的 Build System。
+但內建的 Build System 不是很好用，如果想要加入自己的編譯參數，我們可以選擇 `Tools > Build System > New Build System` 來建立自訂的 Build System。
 
 以下是筆者所使用的 Build System，其效果相當於在 shell 執行以下的編譯指令，並執行編譯完成的程式，亦即「Compile & Run」：
 ``` shell
