@@ -31,7 +31,7 @@ https://packagecontrol.io/packages/AceJump
 ![AceJump](https://cloud.githubusercontent.com/assets/8056203/10858871/92069504-7f58-11e5-8593-e373121fd917.gif)
 
 #### All Autocomplete
-原本內建的補完功能
+內建的補完功能並沒有支援 STL 中一些常用的東西，好在 Sublime Text 會自動學習目前檔案中寫過的關鍵字。安裝了這個套件之後，不止編輯中的檔案，所有開啓中的檔案內用過的關鍵字都會被學習起來。
 
 #### AdvancedNewFile
 https://packagecontrol.io/packages/AdvancedNewFile
