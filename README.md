@@ -23,8 +23,8 @@ https://packagecontrol.io/installation
 #### Alternate VIM Navigation
 [詳細說明](https://packagecontrol.io/packages/Alternate%20VIM%20Navigation)
 
-可以用 <kbd>Alt</kbd> + <kbd>I</kbd><kbd>J</kbd><kbd>K</kbd><kbd>L</kbd> 來上下左右移動游標，
-<kbd>Alt</kbd> + <kbd>H</kbd> / <kbd>;</kbd> 以將游標移動至行首 / 行尾。可搭配 <kbd>Shift</kbd> 選取文字、<kbd>Ctrl</kbd> 逐字移動。
+使用 <kbd>Alt</kbd> + <kbd>I</kbd>/<kbd>J</kbd>/<kbd>K</kbd>/<kbd>L</kbd> 來上下左右移動游標，
+<kbd>Alt</kbd> + <kbd>H</kbd> / <kbd>;</kbd> 以將游標移動至行首 / 行尾，在自動完成選單中也可以用這個方式在候選詞中上下移動，令右手不必再離開打字區。亦可以搭配 <kbd>Shift</kbd> 選取文字、<kbd>Ctrl</kbd> 逐字移動等等。筆者對這個套件的依賴已經到了沒裝它就不知如何移動游標的程度了。
 
 #### AceJump
 https://packagecontrol.io/packages/AceJump
