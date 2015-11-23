@@ -51,6 +51,7 @@ https://packagecontrol.io/packages/AceJump
 
 #### AdvancedNewFile
 https://packagecontrol.io/packages/AdvancedNewFile
+![AdvancedNewFile](https://cloud.githubusercontent.com/assets/9604053/11331052/4bb42544-91f0-11e5-9296-0edd78e503ca.png)
 
 ## 將 Sublime Text 打造成爲 IDE
 
