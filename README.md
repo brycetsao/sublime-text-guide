@@ -104,8 +104,8 @@ $ g++ -Wall -lm -lcrypt -O2 -std=c++11 -pipe -[檔案名稱]
 {
     "variants":
     [
-    	{
-    		"name": "Run",
+        {
+            "name": "Run",
 			"shell_cmd": "g++ $file -Wall -lm -lcrypt -O2 -std=c++11 -pipe && gnome-terminal -x bash -c \"./a.out; read -p \\\"[Press any key]\\\"\""
         }
     ]
