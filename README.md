@@ -20,9 +20,16 @@ http://www.sublimetext.com/3
 $ sudo apt-get install sublime-text
 ```
 
+## 基本操作
+
+### 基礎
+
+### 快速鍵
+
 ## 安裝套件
 
 ### 安裝套件管理
+
 依照官網的指示：https://packagecontrol.io/installation
 
 翻譯如下：
