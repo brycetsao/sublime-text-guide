@@ -11,10 +11,12 @@ Sublime Text 是商業軟體，你可以在官方網站免費下載試用版，�
 目前一份授權的售價是 70 美元，可以到[這裏](http://www.sublimetext.com/buy)購買。
 
 #### Windows/Mac OS X
+
 到這裏下載：
 http://www.sublimetext.com/3
 
 #### Linux (Ubuntu/Mint)
+
 建議用系統的套件管理來安裝，在 terminal 輸入：
 ``` shell
 $ sudo apt-get install sublime-text
@@ -24,9 +26,16 @@ $ sudo apt-get install sublime-text
 
 #### 基礎
 
+* 與其它編輯器相似，<kbd>Ctrl</kbd> + <kbd>O</kbd> 開啓檔案，<kbd>Ctrl</kbd> + <kbd>S</kbd> 存檔，另存新檔則是 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>。
+* 與 Chromium 瀏覽器的操作類似，<kbd>Ctrl</kbd> + <kbd>N</kbd> 開新檔案（分頁），<kbd>Ctrl</kbd> + <kbd>Tab</kbd> 切換分頁，<kbd>Ctrl</kbd> + <kbd>W</kbd> 關閉分頁。
+* <kbd>Shift</kbd> + 移動游標 = 選取，<kbd>Ctrl</kbd> + 移動游標 = 一次移動一個字。
+* <kbd>Ctrl</kbd> + 點擊 = 多重編輯。
 * Sublime Text 會自動暫存所有未儲存的資料，就算在未存檔的情況下離開 Sublime Text，甚至關機，資料都不會遺失。
 
 #### 快速鍵
+
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + 方向鍵：將這行往上/下移動。
+* <kbd>Ctrl</kbd> + <kbd>M</kbd>：移動到這一層的下/上括號，再加上 <kbd>Shift</kbd> 就可以容易地將括號內全選。
 
 以上的快速鍵功能其實都可以在選單中找到，有空不妨翻翻選單，看看有哪些功能，選單上也會附註該功能的快速鍵。<br/>
 更多快速鍵可以到以下網頁查詢：
@@ -112,11 +121,13 @@ Build System 是編譯指令的腳本。
 但內建的 Build System 不是很好用，如果想要「編譯並執行」的功能，或加入自己想要的編譯參數，我們可以選擇 `Tools > Build System > New Build System` 來建立自訂的 Build System。
 
 最後給出的是筆者使用的 Build System，其效果相當於執行以下的編譯指令，接着執行編譯完成的程式：
+
 ``` shell
 $ g++ -Wall -lm -lcrypt -O2 -std=c++11 -pipe -[檔案名稱]
 ```
 
 #### Windows
+
 ``` json
 {
     "variants":
@@ -130,6 +141,7 @@ $ g++ -Wall -lm -lcrypt -O2 -std=c++11 -pipe -[檔案名稱]
 ```
 
 #### Linux
+
 ``` json
 {
     "variants":
@@ -143,6 +155,7 @@ $ g++ -Wall -lm -lcrypt -O2 -std=c++11 -pipe -[檔案名稱]
 ```
 
 #### Mac OS X
+
 ``` json
 {
     "variants":
