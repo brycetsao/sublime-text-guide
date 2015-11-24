@@ -43,11 +43,18 @@ $ sudo apt-get install sublime-text
 筆者對這個套件的依賴已經到了沒裝它就不知如何移動游標的程度了。
 
 #### AceJump
-https://packagecontrol.io/packages/AceJump
 
 ![AceJump](https://cloud.githubusercontent.com/assets/8056203/10858871/92069504-7f58-11e5-8593-e373121fd917.gif)
 
+使用以下快速鍵瞬移到畫面中的任何位置：
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>;</kbd> 移動到目標字
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>'</kbd> 移動到目標字元 
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 移動到目標行
+
+更多說明請見[這裏](https://packagecontrol.io/packages/AceJump)。
+
 #### All Autocomplete
+
 內建的補完功能並沒有支援 STL 中一些常用的東西，好在 Sublime Text 會自動學習目前檔案中寫過的關鍵字。安裝了這個套件之後，不止編輯中的檔案，所有開啓中的檔案內用過的關鍵字都會被學習起來。
 
 #### AdvancedNewFile
