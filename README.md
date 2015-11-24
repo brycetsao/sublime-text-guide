@@ -58,8 +58,10 @@ $ sudo apt-get install sublime-text
 內建的補完功能並沒有支援 STL 中一些常用的東西，好在 Sublime Text 會自動學習目前檔案中寫過的關鍵字。安裝了這個套件之後，不止編輯中的檔案，所有開啓中的檔案內用過的關鍵字都會被學習起來。
 
 #### AdvancedNewFile
-https://packagecontrol.io/packages/AdvancedNewFile
+
 ![AdvancedNewFile](https://cloud.githubusercontent.com/assets/9604053/11331052/4bb42544-91f0-11e5-9296-0edd78e503ca.png)
+
+一個介面漂亮的檔案瀏覽器，將資料夾拖進側邊欄即可放入檔案櫃，更多說明請見[這裏](https://packagecontrol.io/packages/AdvancedNewFile)
 
 ## 將 Sublime Text 打造成爲 IDE
 
