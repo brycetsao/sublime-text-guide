@@ -22,9 +22,9 @@ $ sudo apt-get install sublime-text
 
 ## 基本操作
 
-### 基礎
+#### 基礎
 
-### 快速鍵
+#### 快速鍵
 
 ## 安裝套件
 
