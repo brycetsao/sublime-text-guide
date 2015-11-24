@@ -83,12 +83,12 @@ Sublime Text 中提供了 Build System 這個功能，方便使用者自行整�
 
 ### 安裝 GCC
 
-GCC 是目前 C++ 最廣泛被使用的編譯器。Mac OS X 則已經內建了 GCC，所以不需再安裝。
+GCC 是目前 C++ 最廣泛被使用的編譯器。Mac OS X 已經內建了 GCC，所以不需再安裝。
 
 #### Windows
 
 這裏推薦 Windows users 使用 TDM-GCC 而非 MinGW，因爲前者的安裝較爲簡單，不需經過繁複的設定。
-（另外筆者也被 MinGW 的 bug 雷過）
+（另外筆者也曾被 MinGW 的 bug 雷過……）
 
 到這裏下載：http://tdm-gcc.tdragon.net/download
 
