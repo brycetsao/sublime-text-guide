@@ -26,6 +26,11 @@ $ sudo apt-get install sublime-text
 
 #### 快速鍵
 
+以上的快速鍵功能其實都可以在選單中找到，有空不妨翻翻選單，看看有哪些功能，選單上也會附註該功能的快速鍵。<br/>
+更多快速鍵可以到以下網頁查詢：
+* [Windows/Linux](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html)
+* [Mac OS X](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
+
 ## 安裝套件
 
 Sublime Text 有龐大的套件庫可供選擇，但在安裝套件之前，建議先將 Package Control 裝起來。
