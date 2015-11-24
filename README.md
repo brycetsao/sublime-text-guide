@@ -28,9 +28,14 @@ $ sudo apt-get install sublime-text
 
 ## 安裝套件
 
-### 安裝套件管理
+Sublime Text 有龐大的套件庫可供選擇，但在安裝套件之前，建議先將 Package Control 裝起來。
+之後你可以到[這裏](https://packagecontrol.io/browse)瀏覽可用的套件，不妨找找有無適合自己的擴充套件。
 
-依照官網的指示：https://packagecontrol.io/installation
+### 安裝 Package Control
+
+Package Control 是 Sublime Text 的套件管理系統，所有的套件都可以用它來安裝、更新與移除。
+
+依照官網的指示來安裝：https://packagecontrol.io/installation
 
 翻譯如下：
 > 複製下面的 Python code，然後在 Sublime Text 中按下 <kbd>Ctrl</kbd> + <kbd>\`</kbd> 打開 console（或者 `View > Show Console`）,貼上剛剛複製的 code，再按 <kbd>Enter</kbd>，就會執行安裝了。
