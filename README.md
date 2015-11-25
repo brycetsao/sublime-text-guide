@@ -27,7 +27,7 @@ $ sudo apt-get install sublime-text
 #### 基礎
 
 * 與其它編輯器相似，<kbd>Ctrl</kbd> + <kbd>O</kbd> 開啓檔案，<kbd>Ctrl</kbd> + <kbd>S</kbd> 存檔，另存新檔則是 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>。
-* 與 Chromium 瀏覽器的操作類似，<kbd>Ctrl</kbd> + <kbd>N</kbd> 開新檔案（分頁），<kbd>Ctrl</kbd> + <kbd>Tab</kbd> 切換分頁，<kbd>Ctrl</kbd> + <kbd>W</kbd> 關閉分頁。
+* 與 Chromium 瀏覽器的操作類似，<kbd>Ctrl</kbd> + <kbd>N</kbd> 開新檔案（分頁），<kbd>Ctrl</kbd> + <kbd>W</kbd> 關閉分頁，<kbd>Ctrl</kbd> + <kbd>Tab</kbd> 切換分頁，<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd> 切換到上個分頁。
 * <kbd>Shift</kbd> + <kbd>↑</kbd>/<kbd>↓</kbd>/<kbd>←</kbd>/<kbd>→</kbd> = 選取，<kbd>Ctrl</kbd> + <kbd>←</kbd>/<kbd>→</kbd> = 一次移動一個字。
 * <kbd>Ctrl</kbd> + 點擊 = 多重編輯。
 * Sublime Text 會自動暫存所有未儲存的資料，就算在未存檔的情況下離開 Sublime Text，甚至關機，資料都不會遺失。
