@@ -113,11 +113,10 @@ $ sudo apt-get install g++
 
 ### 使用 Build System 建立編譯腳本
 
-Build System 是編譯指令的腳本。
-工具列中的 `Tools > Build System` 裏面已經內建了一些常用語言的 Build System。
-但內建的 Build System 不是很好用，如果想要「編譯並執行」的功能，或加入自己想要的編譯參數，我們可以選擇 `Tools > Build System > New Build System` 來建立自訂的 Build System。
-
-最後給出的是筆者使用的 Build System，其效果相當於執行以下的編譯指令，接着執行編譯完成的程式：
+Build System 是編譯指令的腳本，透過它我們可以一鍵完成編譯指令。
+工具列中的 `Tools > Build System` 裏面已經內建了一些常用語言的 Build System。但內建的 Build System 不是很好用，如果想要「編譯並執行」的功能，或加入自己想要的編譯參數，我們可以選擇 `Tools > Build System > New Build System` 來建立自訂的 Build System。
+Build System 是 JSON 格式，如果不會寫也不緊要，因爲 ~~筆者也不會~~ 下面的範本可以直接拿來用。
+這裏給出筆者自己使用的 Build System，其效果相當於執行以下的編譯指令，接着執行編譯完成的程式：
 
 ``` shell
 $ g++ -Wall -lm -lcrypt -O2 -std=c++11 -pipe -[檔案名稱]
