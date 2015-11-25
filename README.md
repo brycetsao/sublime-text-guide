@@ -41,7 +41,7 @@ $ sudo apt-get install sublime-text
 
 ## 安裝套件
 
-Sublime Text 有龐大的套件庫可供選擇，但在安裝套件之前，建議先將 Package Control 裝起來。
+Sublime Text 有龐大的套件庫可供選擇，在安裝套件之前，建議先將 Package Control 裝起來。
 之後你可以到[這裏](https://packagecontrol.io/browse)瀏覽可用的套件，不妨找找有無適合自己的擴充套件。
 
 ### 安裝 Package Control
