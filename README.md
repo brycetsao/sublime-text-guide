@@ -127,7 +127,7 @@ $ sudo apt-get install g++
 
 #### Mac OS X
 
-使用內建指令 xcode-select --install 安裝 gcc 和 g++ 。
+使用內建指令 `xcode-select --install` 安裝 gcc 和 g++ 。
 
 ### 使用 Build System 建立編譯腳本
 
