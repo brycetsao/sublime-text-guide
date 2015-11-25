@@ -75,6 +75,8 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 
 ![AceJump](https://cloud.githubusercontent.com/assets/8056203/10858871/92069504-7f58-11e5-8593-e373121fd917.gif)
 
+這個功能來自另一款受歡迎的編輯器 Emacs。
+
 使用以下快速鍵瞬移到畫面中的任何位置：
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>;</kbd> 移動到目標字
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>'</kbd> 移動到目標字元 
@@ -87,6 +89,10 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 ![AdvancedNewFile](https://cloud.githubusercontent.com/assets/9604053/11331052/4bb42544-91f0-11e5-9296-0edd78e503ca.png)
 
 一個介面漂亮的檔案瀏覽器，將資料夾拖進側邊欄即可放入檔案櫃，更多說明請見[這裏](https://packagecontrol.io/packages/AdvancedNewFile)
+
+#### Vintageous
+
+完全模擬偉大的 Vim 編輯器的操作方式，無論你是從 Vim 轉換到 Sublime Text，或想要學會用 Vim，都很適合安裝這個套件。
 
 ## 將 Sublime Text 打造成爲 IDE
 
