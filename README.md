@@ -109,7 +109,7 @@ GCC 是目前 C++ 最廣泛被使用的編譯器。Mac OS X 已經內建了 GCC�
 到這裏下載：http://tdm-gcc.tdragon.net/download
 
 #### Linux
-一樣用系統的套件管理安裝，建議將 g++ 一併裝起來。
+一樣建議用系統的套件管理安裝，建議將 g++ 一併裝起來。
 ``` shell
 $ sudo apt-get install g++
 ```
