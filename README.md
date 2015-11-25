@@ -18,6 +18,7 @@ http://www.sublimetext.com/3
 #### Linux (Ubuntu/Mint)
 
 建議用系統的套件管理來安裝，在 terminal 輸入：
+
 ``` shell
 $ sudo apt-get install sublime-text
 ```
@@ -29,7 +30,7 @@ $ sudo apt-get install sublime-text
 * <kbd>Shift</kbd> + <kbd>↑</kbd>/<kbd>↓</kbd>/<kbd>←</kbd>/<kbd>→</kbd> = 選取，<kbd>Ctrl</kbd> + <kbd>←</kbd>/<kbd>→</kbd> = 一次移動一個字
 * <kbd>Ctrl</kbd> + 點擊 = 多重編輯
 * <kbd>Ctrl</kbd> + <kbd>D</kbd>：選取這個字，按第二下以上的話會向下尋找並選取所有相符的字（多重編輯）。
-* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + 方向鍵：將這行往上/下移動。
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>↑</kbd>/<kbd>↓</kbd>：將這行往上/下移動。
 * <kbd>Ctrl</kbd> + <kbd>M</kbd>：移動到這一層的下/上括號，再加上 <kbd>Shift</kbd> 就可以容易地將括號內全選。
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>：刪除一整行
 * Sublime Text 會自動暫存所有未儲存的資料，就算在未存檔的情況下離開 Sublime Text，甚至關機，資料都不會遺失。
@@ -51,6 +52,7 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 依照官網的指示來安裝：https://packagecontrol.io/installation
 
 翻譯如下：
+
 > 複製下面的 Python code，然後在 Sublime Text 中按下 <kbd>Ctrl</kbd> + <kbd>\`</kbd> 打開 console（或者 `View > Show Console`）,貼上剛剛複製的 code，再按 <kbd>Enter</kbd>，就會執行安裝了。
 
 安裝完成之後，請先重啓 Sublime Text。
@@ -116,7 +118,9 @@ GCC 是目前 C++ 最廣泛被使用的編譯器。Mac OS X 已經內建了 GCC�
 到這裏下載：http://tdm-gcc.tdragon.net/download
 
 #### Linux
+
 一樣建議用系統的套件管理安裝，建議將 g++ 一併裝起來。
+
 ``` shell
 $ sudo apt-get install g++
 ```
