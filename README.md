@@ -73,7 +73,7 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 
 #### C++ Starting Kit
 
-這個套件提供更多 C++ 的自動完成模板，也提升了對 C++ syntax highlighting 的相容性（簡單地說，語法上色變漂亮了）。更多說明請見[這裏](https://packagecontrol.io/packages/C%2B%2B%20Starting%20Kit)
+這個套件提供更多 C++ 的自動完成模板，也提升了對 C++ syntax highlighting 的相容性（簡單地說，語法上色變漂亮了）。更多說明請見[這裏](https://packagecontrol.io/packages/C%2B%2B%20Starting%20Kit)。
 
 #### AceJump
 
@@ -92,7 +92,7 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 
 ![AdvancedNewFile](https://cloud.githubusercontent.com/assets/9604053/11331052/4bb42544-91f0-11e5-9296-0edd78e503ca.png)
 
-一個介面漂亮的檔案瀏覽器，將資料夾拖進側邊欄即可放入檔案櫃，更多說明請見[這裏](https://packagecontrol.io/packages/AdvancedNewFile)
+一個介面漂亮的檔案瀏覽器，將資料夾拖進側邊欄即可放入檔案櫃，更多說明請見[這裏](https://packagecontrol.io/packages/AdvancedNewFile)。
 
 #### Vintageous
 
