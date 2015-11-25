@@ -59,6 +59,10 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 
 ### 套件推介
 
+#### All Autocomplete
+
+內建的補完功能並沒有支援 STL 中一些常用的東西，好在 Sublime Text 會自動學習目前檔案中寫過的關鍵字。安裝了這個套件之後，不止編輯中的檔案，所有開啓中的檔案內用過的關鍵字都會被學習起來。
+
 #### Alternate VIM Navigation
 
 使用 <kbd>Alt</kbd> + <kbd>I</kbd>/<kbd>J</kbd>/<kbd>K</kbd>/<kbd>L</kbd> 來上下左右移動游標，
@@ -77,10 +81,6 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 移動到目標行
 
 更多說明請見[這裏](https://packagecontrol.io/packages/AceJump)。
-
-#### All Autocomplete
-
-內建的補完功能並沒有支援 STL 中一些常用的東西，好在 Sublime Text 會自動學習目前檔案中寫過的關鍵字。安裝了這個套件之後，不止編輯中的檔案，所有開啓中的檔案內用過的關鍵字都會被學習起來。
 
 #### AdvancedNewFile
 
