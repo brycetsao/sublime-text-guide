@@ -104,13 +104,11 @@ Package Control 是 Sublime Text 的套件管理系統，所有的套件都可�
 
 Sublime Text 本身只有文字編輯器，若要編譯程式碼，我們需要另行安裝編譯器。
 Sublime Text 中提供了 Build System 這個功能，方便使用者自行整合想用的編譯器。
-這部分將說明如何安裝 TDM-GCC 作爲 C++ 的編譯器，並示範用 Build System 來設定「編譯並執行」的功能。
+這部分將說明如何安裝 GCC 作爲 C++ 的編譯器，並示範用 Build System 來設定「編譯並執行」的功能。
 
 ### 安裝 GCC
 
-GCC 是目前 C++ 最廣泛被使用的編譯器。
-
-#### Windows需要
+#### Windows
 
 這裏推薦 Windows users 使用 TDM-GCC 而非 MinGW，因爲前者的安裝較爲簡單，不需經過繁複的設定。
 （另外筆者也曾被 MinGW 的 bug 雷過……）
