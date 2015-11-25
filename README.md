@@ -24,20 +24,15 @@ $ sudo apt-get install sublime-text
 
 ## 基本操作
 
-#### 基礎
-
 * 與其它編輯器相似，<kbd>Ctrl</kbd> + <kbd>O</kbd> 開啓檔案，<kbd>Ctrl</kbd> + <kbd>S</kbd> 存檔，另存新檔則是 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>。
 * 類似 Chromium 瀏覽器的操作，<kbd>Ctrl</kbd> + <kbd>N</kbd> 開新檔案（開新分頁），<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> 開新視窗，<kbd>Ctrl</kbd> + <kbd>W</kbd> 關閉分頁，<kbd>Ctrl</kbd> + <kbd>Tab</kbd> 切換分頁，<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd> 切換到上個分頁。拖曳分頁可以重新排序，將分頁拖出視窗可以開新視窗。
 * <kbd>Shift</kbd> + <kbd>↑</kbd>/<kbd>↓</kbd>/<kbd>←</kbd>/<kbd>→</kbd> = 選取，<kbd>Ctrl</kbd> + <kbd>←</kbd>/<kbd>→</kbd> = 一次移動一個字。
 * <kbd>Ctrl</kbd> + 點擊 = 多重編輯。
 * Sublime Text 會自動暫存所有未儲存的資料，就算在未存檔的情況下離開 Sublime Text，甚至關機，資料都不會遺失。
-
-#### 快速鍵
-
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + 方向鍵：將這行往上/下移動。
 * <kbd>Ctrl</kbd> + <kbd>M</kbd>：移動到這一層的下/上括號，再加上 <kbd>Shift</kbd> 就可以容易地將括號內全選。
 
-以上的快速鍵功能其實都可以在選單中找到，有空不妨翻翻選單，看看有哪些功能，選單上也會附註該功能的快速鍵。<br/>
+上述的快速鍵功能其實都可以在選單中找到，有空不妨翻翻選單，看看有哪些功能，選單上也會附註該功能的快速鍵。<br/>
 更多快速鍵可以到以下網頁查詢：
 * [Windows/Linux](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html)
 * [Mac OS X](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
