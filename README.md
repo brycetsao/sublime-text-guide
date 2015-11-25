@@ -28,7 +28,7 @@ $ sudo apt-get install sublime-text
 * 類似 Chromium 瀏覽器的操作，<kbd>Ctrl</kbd> + <kbd>N</kbd> 開新檔案（開新分頁），<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> 開新視窗，<kbd>Ctrl</kbd> + <kbd>W</kbd> 關閉分頁，<kbd>Ctrl</kbd> + <kbd>Tab</kbd> 切換分頁，<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd> 切換到上個分頁。拖曳分頁可以重新排序，將分頁拖出視窗可以開新視窗。
 * <kbd>Shift</kbd> + <kbd>↑</kbd>/<kbd>↓</kbd>/<kbd>←</kbd>/<kbd>→</kbd> = 選取，<kbd>Ctrl</kbd> + <kbd>←</kbd>/<kbd>→</kbd> = 一次移動一個字
 * <kbd>Ctrl</kbd> + 點擊 = 多重編輯
-* <kbd>Ctrl</kbd> + <kbd>D</kbd>：選取這個字，按第二下以上的話會向下尋找所有相符的字。
+* <kbd>Ctrl</kbd> + <kbd>D</kbd>：選取這個字，按第二下以上的話會向下尋找並選取所有相符的字（多重編輯）。
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + 方向鍵：將這行往上/下移動。
 * <kbd>Ctrl</kbd> + <kbd>M</kbd>：移動到這一層的下/上括號，再加上 <kbd>Shift</kbd> 就可以容易地將括號內全選。
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>：刪除一整行
